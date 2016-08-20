@@ -4,8 +4,7 @@
   "description": "Story of my life.",
   "main": "app.js",
   "dependencies": {
-    "express": "^4.14.0",
-    
+    "express": "^4.14.0"
   },
   "devDependencies": {},
   "scripts": {
