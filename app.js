@@ -13,5 +13,4 @@ app.get('/resume', function(req, res) {
   res.sendfile('pages/resume.html');
 });
 app.listen(port);
-
 module.exports = app;
