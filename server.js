@@ -14,5 +14,5 @@ app.get('/resume', function(req, res) {
 });
 
 app.listen(port);
-
+console.log("Server running at http://localhost:5000")
 module.exports = app;
