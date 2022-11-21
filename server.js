@@ -7,10 +7,10 @@ app.use(express.static(__dirname + "/node_modules"));
 app.use(express.static('assets'));
 
 app.get('/', function(req, res) {
-  res.sendfile('index.html');
+  res.sendFile('index.html');
 });
 app.get('/resume', function(req, res) {
-  res.sendfile('pages/resume.html');
+  res.sendFile('pages/resume.html');
 });
 
 app.listen(port);
