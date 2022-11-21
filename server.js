@@ -7,7 +7,8 @@ app.use(express.static(__dirname + "/node_modules"));
 app.use(express.static('assets'));
 
 app.get('/', function(req, res) {
-  res.sendFile('index.html');
+  // res.sendFile('index.html');
+  res.sendFile(path.join(__dirname + '/index.html'))
 });
 app.get('/resume', function(req, res) {
   res.sendFile('pages/resume.html');
